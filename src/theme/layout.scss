@@ -1,0 +1,15 @@
+.main_container {
+    flex: 1;
+}
+
+//侧边栏展开宽度
+.layout-aside-unfold {
+    width: 220px !important;
+    transition: width 0.3s ease;
+}
+
+//侧边栏收起宽度
+.layout-aside-fold {
+    width: 64px !important;
+    transition: width 0.3s ease;
+}

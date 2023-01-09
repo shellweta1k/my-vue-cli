@@ -1,0 +1,21 @@
+@import './normalize.scss';
+@import './element.scss';
+@import './layout.scss';
+
+
+.clearfix {
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
